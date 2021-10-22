@@ -5,9 +5,12 @@ How to start Server:
 3. run : docker run -it -p 8000:8000 demo-app
 4. try to open : http://127.0.0.1:8000/siteAdmin/
 5. If it opens an django administration page then you can start testing using : http://127.0.0.1:8000/
-NOTE :
- --- JWT token will be present in HTTP_AUTHORISATION header in response of successful login request.
- --- Please use Bearer token in postman to use jwt token for transactions.
+
+Note ---
+1. JWT token will be present in HTTP_AUTHORISATION header in response of successful login request.
+2. Please use Bearer token in postman to use jwt token for transactions.
+
+
 Routes :
 
 User -------------------------
